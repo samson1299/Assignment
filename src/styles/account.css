@@ -1,0 +1,94 @@
+.account-page {
+  min-height: 812px;
+  background: #f7f8f9;
+}
+
+.account-header {
+  background: #FFFFFF;
+  padding: 25px 20px;
+  border-bottom: 1px solid #00000007;
+  box-shadow: 0px 3px 6px #00000007;
+  opacity: 1;
+}
+
+.account-header h2 {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.profile-section {
+  padding: 30px 20px;
+  border-bottom: 2px dashed #d9d9d9;
+}
+
+.profile-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-image-wrapper {
+  position: relative;
+}
+
+.profile-image-wrapper > img {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.camera-icon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 24px;
+  height: 24px;
+
+  background: #6c25ff;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+}
+
+.camera-icon img {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+}
+
+
+.profile-info h3 {
+  font-size: 14px;
+  color: #1d2226;
+  margin-bottom: 6px;
+  letter-spacing: 0px;
+  text-transform: capitalize;
+  opacity: 1
+}
+
+.profile-info p {
+  font-size: 14px;
+  color: #1d2226;
+}
+
+.profile-description {
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 22px;
+  color: #1d2226;
+}
+.dotted-line {
+  border: none;
+  border-top: 3px dotted #bdbdbd;
+  margin: 30px 0;
+  width: 100%;
+}

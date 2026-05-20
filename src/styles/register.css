@@ -1,0 +1,64 @@
+.register-page {
+  padding: 30px 20px;
+  min-height: 812px;
+  position: relative;
+}
+
+.register-page h1 {
+  font-size: 28px;
+  line-height: 46px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  color: #1D2226;
+  opacity: 1;
+}
+
+.agency-section {
+  margin-top: 10px;
+}
+
+.agency-section p {
+  font-size: 13px;
+  color: #1d2226;
+  margin-bottom: 15px;
+  opacity: 1;
+}
+
+.agency-section span {
+  color: red;
+}
+
+.radio-group {
+  display: flex;
+  gap: 25px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+
+.radio-group input[type="radio"] {
+  accent-color: #6c25ff;
+  width: 20px;
+  height: 20px;
+}
+
+.create-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  width: calc(100% - 40px);
+  height: 46px;
+  background: #6c25ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 500;
+}
